@@ -12,5 +12,5 @@ for (let i = 1; i <= 100; i++) {
         element.innerHTML = i;
     }
 
-    console.log(element);
+    document.getElementById("container").append(element);
 }
